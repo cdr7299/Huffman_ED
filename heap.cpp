@@ -9,7 +9,7 @@ MinHeap ::MinHeap() : heap_size(0)
 {
 }
 
-//consructor with vector
+//constructor with vector
 
 MinHeap::MinHeap(vector<heapNode *> temp) : heap_size(temp.size()), heap(temp)
 {
@@ -176,6 +176,7 @@ void MinHeap::saveCodes()
 
 
 void MinHeap::printInfo(map<char, int> test,string str){
+    //count number of bits in the encoded string
     int ans = 0;
     //print the saved data first
     for(auto i : um){
