@@ -1,0 +1,6 @@
+#ignore all the text files
+*.txt
+
+*.exe
+
+*.out
